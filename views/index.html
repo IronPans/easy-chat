@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="ionicons-2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="free-chat free-chat-demo">
+      <div class="free-chat-menu">
+        <div class="free-chat-menu-header free-chat-navs"><span class="free-chat-nav active"><i class="ion-chatbubble-working"></i></span><span class="free-chat-nav"><i class="ion-android-contact"></i></span><span class="free-chat-nav"><i class="ion-android-contacts"></i></span></div>
+        <div class="free-chat-user-list free-chat-nav-contents free-iscroll free-chat-item-hover">
+          <div class="free-chat-nav-content active">
+            <div class="free-chat-item active">
+              <div class="free-chat-avatar"><img src="http://oumfrpm5j.bkt.clouddn.com/freeng_logo.png"></div>
+              <div class="free-chat-item-body">
+                <div class="free-chat-item-title">FreeNG之家</div>
+                <div class="free-chat-item-subtitle"> This is a UI framework group.</div>
+              </div><span class="free-chat-badge">1</span>
+            </div>
+          </div>
+          <div class="free-chat-nav-content">
+            <div class="free-chat-item active">
+              <div class="free-chat-avatar"><img src="http://2sharings.com/demo/ui/material_angular/img/profile-pics/1.jpg"><span class="free-chat-item-status"></span></div>
+              <div class="free-chat-item-body">
+                <div class="free-chat-item-title">TG</div>
+                <div class="free-chat-item-subtitle"> This is a author.</div>
+              </div><span class="free-chat-badge">1</span>
+            </div>
+          </div>
+          <div class="free-chat-nav-content">
+            <div class="free-chat-item active">
+              <div class="free-chat-avatar"><img src="http://2sharings.com/demo/ui/material_angular/img/profile-pics/1.jpg"></div>
+              <div class="free-chat-item-body">
+                <div class="free-chat-item-title">FreeNG之家</div>
+                <div class="free-chat-item-subtitle"> This is a UI framework group.</div>
+              </div><span class="free-chat-badge">1</span>
+            </div>
+          </div>
+        </div>
+        <div class="free-chat-menu-footer"><span class="free-chat-tool"><i class="ion-ios-search-strong"></i></span><span class="free-chat-tool"><i class="ion-ios-plus"></i></span><span class="free-chat-tool"><i class="ion-tshirt"></i></span><span class="free-chat-tool"><i class="ion-android-settings"></i></span></div>
+      </div>
+      <div class="free-chat-container">
+        <div class="free-chat-container-header">
+          <div class="free-chat-head">
+            <div class="free-chat-avatar"><img src="/images/avatar/1.jpg"></div><span class="free-chat-head-title">
+              <input type="text" value="TG" spellcheck="false"></span>
+          </div>
+        </div>
+        <div class="free-chat-container-body free-iscroll"></div>
+        <div class="free-chat-container-toolbar"><span class="free-chat-popup"><i class="ion-happy-outline"></i>
+            <div class="free-chat-popup-wrapper" id="free-chat-emotion"></div></span><span class="free-tool-image">
+            <input type="file" id="image-file" name="file" accept="image/*"><i class="ion-image"></i></span><span class="free-tool-movie"><i class="ion-ios-videocam"></i></span><span class="free-tool-music"><i class="ion-headphone"></i></span></div>
+        <div class="free-chat-container-footer">
+          <div class="free-chat-textarea" contenteditable="true" spellcheck="false"></div>
+          <button class="free-chat-send"><i class="ion-android-send"></i></button>
+        </div>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="database.js"></script>
+    <script src="utils.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
